@@ -1,5 +1,5 @@
 # Ejercicio_diccionarios
-# Gestión de Libros en Python
+# Gestión de Libros 
 
 Este script en Python permite gestionar una lista de libros, ofreciendo las siguientes funcionalidades a través de un menú interactivo:
 
