@@ -5,7 +5,7 @@ while True:
     print("\n")
     print("\033[1m\033[34m=\033[0m" * 30) 
     print("\033[1m\033[34m=\033[0m" * 30)  
-    opciones = int(input("\033[1m\033[32mMenú de Libros\033[0m"  
+    opciones = int(input("\033[1m\033[32mMenu de Libros\033[0m"  
                          "\n\033[1m\033[33m1\033[0m Agregar Libro"
                          "\n\033[1m\033[33m2\033[0m Consultar Libros"
                          "\n\033[1m\033[33m3\033[0m Eliminar Libro"
@@ -80,7 +80,7 @@ while True:
                 else:
                     print("\033[1m\033[31mID ingresado incorrecto\033[0m")  
             except ValueError:
-                print("\033[1m\033[31mID inválido\033[0m") 
+                print("\033[1m\033[31mID invalido\033[0m") 
         else:
             print("\033[1m\033[31mNo hay libros para modificar\033[0m")  
 
@@ -89,4 +89,4 @@ while True:
         break
 
     else:
-        print("\n\033[1m\033[31mOpción inválida\033[0m") 
+        print("\n\033[1m\033[31mOpción invalida\033[0m") 
